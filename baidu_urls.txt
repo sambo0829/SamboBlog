@@ -1,4 +1,4 @@
 http://www.muse824.club/2017/12/03/Hexo常用命令/
-http://www.muse824.club/2017/12/03/Linux常用命令/
 http://www.muse824.club/2017/12/03/Python常用命令/
+http://www.muse824.club/2017/12/03/Linux常用命令/
 http://www.muse824.club/2017/12/03/Python常用模块/
