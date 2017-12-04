@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.muse824.club/about/index.html</loc>
+    
+    <lastmod>2017-12-04T15:28:02.086Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.muse824.club/Python%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.html</loc>
     
     <lastmod>2017-12-04T15:20:22.401Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://www.muse824.club/tags/index.html</loc>
     
     <lastmod>2017-12-03T13:59:59.820Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.muse824.club/about/index.html</loc>
-    
-    <lastmod>2017-12-03T13:59:53.975Z</lastmod>
     
   </url>
   
