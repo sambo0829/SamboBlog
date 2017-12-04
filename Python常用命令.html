@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo.png"/>
+	 <link rel="shortcut icon" href="/img/logo.png">
+	
+			
+    <title>
+    中二病数据猿
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    
+    	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+
+			    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">宝三不是三宝</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Blog/">Blog</a></li><li><a class="category-link" href="/categories/Program/">Program</a></li><li><a class="category-link" href="/categories/System/">System</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/tags/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="图库">
+		                图库
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/about/" title="About Me">
+		                About Me
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+		            
+		                <li><a href="https://github.com/sambo0829" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		            
+		            
+		            
+		            
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/images/logo.png);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Python常用命令</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>Python中文注释方法</p>
+<p>在python编写代码的时候，避免不了会出现或是用到中文，这时候你需要在文件开头加上中文注释。如果开头不声明保存编码的格式是什么，那么它会默认使用ASKII码保存文件，这时如果你的代码中有中文就会出错了，即使你的中文是包含在注释里面的。所以加上中文注释很重要。</p>
+<p>#coding=utf-8<br>或者：</p>
+<p>#coding=gbk<br>type()函数可以做什么</p>
+<p>在介绍数据类型的文章中提到过，要怎么样查看对像的数据类型。type()就是一个最实用又简单的查看数据类型的方法。type()是一个内建的函数，调用它就能够得到一个反回值，从而知道想要查询的对像类型信息。</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>type(1)</p>
+<type 'int'=""> 
+
+
+</type></blockquote>
+</blockquote>
+</blockquote>
+<p>print格式化输出（字符串、整数）</p>
+<p>python的print语句和字符串操作符%一起结合使用，可以实现替换的可能。方法很巧妙，应用范围也比较多，操作方法如下：</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>print “%s is %d old” % (“she”,20)<br>she is 20 old<br>这里的%s和%d是占位符，分别是为字符串类型和整型来服务的。在占位符相关文章中过详细的来讲解。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>如果想让多个变量数据在同一行显示，操作起来很简单，只需要在变量名后边加逗号就可以了，像下面这样操作：</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>print a,b,c<br>1 2 3<br>定义函数function的方法</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>定义函数需要用到def语句，需要注意的几个事项：<br>1、def开头，代表定义函数<br>2、def和函数名中间要敲一个空格<br>3、之后是函数名，这个名字用户自己起的，方便自己使用就好<br>4、函数名后跟圆括号()，代表定义的是函数，里边可加参数<br>5、圆括号()后一定要加冒号:这个很重要，不要忘记了<br>6、代码块部分，是由语句组成，要有缩进<br>7、函数要有返回值return<br>Python基本内置数据类型有哪些？</p>
+<p>在Python程序中，每个数据都是对像，每个对像都有自己的一个类型。不同类型有不同的操作方法，使用内置数据类型独有的操作方法，可以更快的完成很多工作。</p>
+<p>一些基本数据类型，比如：整型（数字）、字符串、元组、列表、字典和布尔类型。</p>
+<p>随着学习进度的加深，大家还会接触到更多更有趣的数据类型，python初学者入门时先了解这几种类型就可以了。</p>
+<p>基本内置数据类型对应符号</p>
+<p>1）整型——int——数字<br>python有5种数字类型，最常见的就是整型int，int python方法很实用。例如：1234、-1234</p>
+<p>2）布尔型——bool——用符号==表示<br>布尔型是一种比较特殊的python数字类型，它只有True和False两种值，它主要用来比较和判断，所得结果叫做布尔值。例如：3==3给出True，3==5给出False</p>
+<p>3）字符串——str——用’ ‘或” “表示<br>例如：’www.iplaypython.com’或者”hello”</p>
+<p>4）列表——list——用[ ]符号表示<br>例如：[1,2,3,4]</p>
+<p>5）元组——tuple——用( )符号表示<br>例如：（’d’,300）</p>
+<p>6）字典——dict——用{ }符号表示<br>例如：｛’name’:’coco’,’country’:’china’｝<br>Python基本数据类型中哪些可变，哪些是不可变</p>
+<p>python可变数据类型：列表list[ ]、字典dict{ }</p>
+<p>python不可变数据类型：整型int、字符串str’ ‘、元组tuple（）</p>
+<p>Python类class定义方法与属性教程</p>
+<p>Python中的类（Class）是一个抽象的概念，比函数还要抽象，这也就是Python的核心概念，面对对象的编程方法(OOP)，其它如：Java、C++等都是面对对象的编程语言。</p>
+<p>面对对象(oop)中的对象，是一个非常重要的知识点，我们可以把它简单看做是数据以及由存取、操作这些数据的方法所组成的一个集合。我们在学习函数(function)之后，知道了如果重用代码，那为什么还要用类来取代函数呢？</p>
+<p>类有这样一些的优点</p>
+<p>1 ) 、类对象是多态的：也就是多种形态，这意味着我们可以对不同的类对象使用同样的操作方法，而不需要额外写代码。<br>2 ) 、类的封装：封装之后，可以直接调用类的对象，来操作内部的一些类方法，不需要让使用者看到代码工作的细节。<br>3 ) 、类的继承：类可以从其它类或者元类中继承它们的方法，直接使用。</p>
+<p>定义类（class）的语法</p>
+<p>大家直接看Python代码：</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>class Iplaypython:<br>    def fname(self, name):<br>         self.name = name</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>看一第行，语法是class 后面紧接着，类的名字，最后别忘记“冒号”，这样来定义一个类。<br>玩蛇网提示：类的名字，首字母，有一个不可文的规定，最好是大写，这样需要在代码中识别区分每个类。</p>
+<p>第二行开始是类的方法，大家看到了，和函数非常相似，但是与普通函数不同的是，它的内部有一个“self”，参数，它的作用是对于对象自身的引用。</p>
+<p>这篇文章我们介绍了类的概念，在以后的文章中，我们会介绍更多类和抽象对象的知识，比如：类的实例（类的调用）、类的方法、构造函数、类的命名空间和作用域以及类的继承概念。<br>python assert断言详细用法格式</p>
+<p>使用assert断言是学习python一个非常好的习惯，python assert断言句语格式及用法很简单。在没完善一个程序之前，我们不知道程序在哪里会出错，与其让它在运行最崩溃，不如在出现错误条件时就崩溃，这时候就需要assert断言的帮助。本文主要是讲assert断言的基础知识。</p>
+<p>python assert断言的作用</p>
+<p>python assert断言是声明其布尔值必须为真的判定，如果发生异常就说明表达示为假。可以理解assert断言语句为raise-if-not，用来测试表示式，其返回值为假，就会触发异常。</p>
+<p>assert断言语句的语法格式</p>
+<p>assert python 怎么用？<br>expression assert 表达式</p>
+<p>下面做一些assert用法的语句供参考：<br>assert 1==1<br>assert 2+2==2*2<br>assert len([‘my boy’,12])&lt;10<br>assert range(4)==[0,1,2,3]</p>
+<p>如何为assert断言语句添加异常参数</p>
+<p>assert的异常参数，其实就是在断言表达式后添加字符串信息，用来解释断言并更好的知道是哪里出了问题。格式如下：<br>assert expression [, arguments]<br>assert 表达式 [,参数]</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-muse824-club'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://www.muse824.club/Python常用命令.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://www.muse824.club/Python常用命令.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-muse824-club.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Author: <a href="http://www.muse824.club/ " style="border-bottom: none;">Sambo</a></li>
+            </ul>
+            
+            	<span id="busuanzi_container_site_pv">2017总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
